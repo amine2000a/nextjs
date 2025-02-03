@@ -37,7 +37,7 @@ jobs:
       - name: Upload to Deno Deploy
         uses: denoland/deployctl@v1
         with:
-          project: "amine2000a-nextjs-94"
+          project: "amine2000a-nextjs-53"
           entrypoint: "jsr:@deno/nextjs-start"
           root: "."
           include: .next, public
